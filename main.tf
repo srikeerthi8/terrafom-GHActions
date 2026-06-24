@@ -2,8 +2,8 @@ provider "aws" {
 region = "ca-central-1"
 }
 
-resource "aws_s3_bucket" "test_1" {
-bucket = "githubactions-bucket"
+resource "aws_s3_bucket" "demo" {
+bucket = "githubactions-bucket-demo"
 }
 
 resource "aws_instance" "my_server" {
