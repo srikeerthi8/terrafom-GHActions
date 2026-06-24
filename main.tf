@@ -3,7 +3,7 @@ region = "ca-central-1"
 }
 
 resource "aws_s3_bucket" "demo" {
-bucket = "my-githubactions-demo-bucket"
+bucket = "my-githubactions-bucket"
 }
 
 resource "aws_instance" "my_server" {
